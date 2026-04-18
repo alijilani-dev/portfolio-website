@@ -1,11 +1,16 @@
 import type { NextConfig } from "next";
 
+const BASE_PATH = "/portfolio-website";
+
 const nextConfig: NextConfig = {
-  output: "export",       // Generate a static HTML export
-  basePath: "/portfolio-website",   // Must match your GitHub repo name
-  assetPrefix: "/portfolio-website/", // Ensures CSS/JS loads from the correct path
+  output: "export",
+  basePath: BASE_PATH,
+  assetPrefix: BASE_PATH + "/",
   images: {
-    unoptimized: true,    // Required for GitHub Pages (no server-side image optimization)
+    unoptimized: true,
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: BASE_PATH,
   },
 };
 

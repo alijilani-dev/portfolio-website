@@ -17,7 +17,7 @@ export default function HeroSection() {
           transition={{ duration: 0.5 }}
         >
           <div className="flex justify-center mb-6">
-            <Image src="/logo.png" alt="BitCadence Logo" width={200} height={200} className="object-contain" />
+            <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/logo.png`} alt="BitCadence Logo" width={200} height={200} className="object-contain" unoptimized />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-4">
             Hi, I'm{" "}
