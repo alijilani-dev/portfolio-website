@@ -5,7 +5,6 @@ const BASE_PATH = "/portfolio-website";
 const nextConfig: NextConfig = {
   output: "export",
   basePath: BASE_PATH,
-  assetPrefix: BASE_PATH + "/",
   images: {
     unoptimized: true,
   },
