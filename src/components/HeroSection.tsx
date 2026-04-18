@@ -4,6 +4,7 @@ import portfolioData from "@/data/portfolio.json";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import logo from "../../public/logo.png";
 
 export default function HeroSection() {
   const { personal } = portfolioData;
@@ -17,7 +18,7 @@ export default function HeroSection() {
           transition={{ duration: 0.5 }}
         >
           <div className="flex justify-center mb-6">
-            <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/logo.png`} alt="BitCadence Logo" width={200} height={200} className="object-contain" unoptimized />
+            <Image src={logo} alt="BitCadence Logo" width={200} height={200} className="object-contain" priority />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-4">
             Hi, I'm{" "}
