@@ -1,0 +1,230 @@
+{
+  "personal": {
+    "name": "Ali Jilani",
+    "title": "Project Manager & Agentic AI Developer",
+    "bio": "18+ years multiculturally experienced IT Professional, Corporate Trainer & Consultant with proven skills in public and private sector across telecom, transportation, packaging, fintech, international trade, education and software dev & consulting industries. Master of Science in Computing (Enterprise Software Systems) from Waterford Institute of Technology.",
+    "email": "aajilani.job@gmail.com",
+    "social": {
+      "github": "https://github.com/alijilani-dev/",
+      "linkedin": "https://www.linkedin.com/in/ali-akbar-pmp/",
+      "twitter": ""
+    }
+  },
+  "skills": [
+    {
+      "category": "Cloud-Native, Agentic AI & AI Driven Development",
+      "items": [
+        "OpenClaw", "Claude Code Vibe-coding", "OpenAI Agents SDK", "Python", "FastAPI", 
+        "SQLModel", "Pydantic", "Neon DB", "Agent Skills", "MCP", "Spec-Kit Plus", "n8n", 
+        "Prompt & Context Engg.", "docker", "Kubernetes"
+      ]
+    },
+    {
+      "category": "ECM/ CRM/ Document Management",
+      "items": [
+        "Hummingbird DM 5.1", "OpenText DM 5.3.1", "FileNet Content Manager V5.1", "KOFAX Capture 7.5"
+      ]
+    },
+    {
+      "category": "Project Management (PMP)",
+      "items": [
+        "Waterfall", "Agile", "Scrum", "Jira + ITSM", "Trello", "MSProject Prof/ Server + Web Access"
+      ]
+    },
+    {
+      "category": "DevOps/ Cloud Services/ Containerization",
+      "items": [
+        "Linux (Ubuntu)", "Apache", "IIS", "Amazon EC2", "RDS (MySQL)", "CloudWatch", 
+        "S3 Buckets/ EBS", "Route53", "IAM", "Auto-scaled Load Balanced VPCs", "Ant", "Maven", 
+        "Chef/Chef-Server", "SVN", "Tortoise", "GIT", "GitHub", "AWS Code-Pipeline"
+      ]
+    },
+    {
+      "category": "Software Development/ Databases",
+      "items": [
+        "R", "Python", "C#", "C++", "ASP.Net", "Microservices", "UML", "SQL Server", "Firebase", "Oracle 11g"
+      ]
+    },
+    {
+      "category": "Soft/ Transferable Skills",
+      "items": [
+        "Corporate/ IT Lecturer", "Strategic & Analytical Thinking", "Time Management", "Negotiation & Persuasion"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Sparrows.co",
+      "description": "Social Media Platform comprising features of LinkedIn & Facebook.",
+      "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1000&auto=format&fit=crop",
+      "tags": ["Python", "PostGreSQL", "Django"],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "id": "2",
+      "title": "Clinical Wellness Network",
+      "description": "Healthcare Application Platform.",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1000&auto=format&fit=crop",
+      "tags": ["NodeJS"],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "id": "3",
+      "title": "Bridge 18",
+      "description": "Operations Support System for Trucking.",
+      "image": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=1000&auto=format&fit=crop",
+      "tags": ["Logistics", "Operations"],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "id": "4",
+      "title": "PTCL Corporate Portal & Mobile Apps",
+      "description": "Corporate Portal Development (RWD) and PTCL Touch Mobile Apps (Android, iOS, Windows Phone, Black Berry) for Pakistan Telecommunications Company.",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1000&auto=format&fit=crop",
+      "tags": ["Mobile Apps", "Corporate Portal", "RWD"],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "id": "5",
+      "title": "Emirates Post Portals",
+      "description": "Intranet Portal (Offshore Integrated Portal Dev, RWD) and Mobile App (Android, iOS) for Emirates Post, Govt. of Dubai.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+      "tags": ["Intranet Portal", "Mobile Apps"],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "id": "6",
+      "title": "Roads & Transport Authority (RTA) EDMS",
+      "description": "Turnkey Document + Record Management, eArchive, 6 Integ. and EDMS Upgrade from eDocs DM 5.1 to DM 5.3.",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=1000&auto=format&fit=crop",
+      "tags": ["EDMS", "eDocs DM", "KOFAX"],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "id": "7",
+      "title": "Wonder Bus Tours & Crystal House",
+      "description": "Corporate Website Development for Wonder Bus Tours and Crystal House Fashion Elements & Crystals, Dubai UAE.",
+      "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1000&auto=format&fit=crop",
+      "tags": ["Web Development"],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "id": "8",
+      "title": "Phonetrade.cc & Worldtrade.cc",
+      "description": "Mobile Trading Portal with 500+ member international traders, General Trading Portal and Computer Accessories Trading Portal (CPUtrade.cc).",
+      "image": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=1000&auto=format&fit=crop",
+      "tags": ["ASP.Net", "SQL Server", "Web Portal"],
+      "liveUrl": "http://www.Phonetrade.cc",
+      "githubUrl": ""
+    },
+    {
+      "id": "9",
+      "title": "SpeedRemit Online",
+      "description": "Online Money Transfer System, ARY Card Linked Offers (CLO) & B2B data exchange (FTPS). Web Portal Re-Engineering with KYC/AML Compliance.",
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1000&auto=format&fit=crop",
+      "tags": ["ASP.Net", "SQL Server", "Fintech"],
+      "liveUrl": "http://www.speedremit.ae",
+      "githubUrl": ""
+    },
+    {
+      "id": "10",
+      "title": "Smart Recruitment App",
+      "description": "Smart Recruitment Mobile App Development, Product Development - InnoKAT, Dubai, UAE.",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1000&auto=format&fit=crop",
+      "tags": ["Mobile App", "Recruitment"],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "id": "11",
+      "title": "WorkPlains DMS",
+      "description": "Document Management System (Web Service with Web Portal Client Development) SOA, ASP.Net, C#, SQL Server. Virtual folder (Windows Explorer Extension) implementation.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000&auto=format&fit=crop",
+      "tags": ["ASP.Net", "C#", "SQL Server", "SOA", "WebDAV"],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "id": "12",
+      "title": "Design Pro Tools",
+      "description": "Manager Shell Integrated Application (C++, ATL Com) and Graphics Editor for Print Resource Management (IBM AFP & HP Printers).",
+      "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?q=80&w=1000&auto=format&fit=crop",
+      "tags": ["C++", "ATL Com", "Objective Toolkit"],
+      "liveUrl": "",
+      "githubUrl": ""
+    }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "role": "Project Manager / Head of IT Dept",
+      "company": "Roshan Packages Limited",
+      "dates": "Recent",
+      "description": "Service Design & Development / Project Management: Service Development Jira ITSM & Dev. Industry 4.0. Agility & Digitalization, Traceability: Manage SAP Development team, Business Process Improvement + Audit."
+    },
+    {
+      "id": "2",
+      "role": "Senior Technical Project Manager",
+      "company": "PureLogics Pvt. Ltd.",
+      "dates": "Past",
+      "description": "Managed social media platform (Sparrows.co), healthcare app (Clinical Wellness Network), and operations support system (Bridge 18) for Trucking."
+    },
+    {
+      "id": "3",
+      "role": "Project Manager",
+      "company": "Etisalat (Emirates Telecom Corporation-PMO)",
+      "dates": "Past",
+      "description": "Strategy Implementation, GRC: Governance, Reporting, Compliance. Managed 50+ projects (8 programs). Technology Store Revamp: Project Management - (73 of 128) Etisalat Stores across 7 Emirates."
+    },
+    {
+      "id": "4",
+      "role": "IT Project Manager",
+      "company": "InnoKAT (F.Z.) L.L.C.",
+      "dates": "Past",
+      "description": "Managed corporate portal development (PTCL), PTCL Touch mobile apps, Emirates Post intranet and mobile apps, and EDMS Upgrade for Roads and Transport Authority."
+    },
+    {
+      "id": "5",
+      "role": "EDMS Consultant",
+      "company": "Roads & Transport Authority / Ajman E-Gov / Sorouh",
+      "dates": "Past",
+      "description": "Turnkey Document + Record Management, eArchive, Business Analysis DM Workflow. EDMS Implementation & KOFAX Ascent Capture Integration."
+    },
+    {
+      "id": "6",
+      "role": "Software Programmer",
+      "company": "S & R Logistics F. Z. L.L.C.",
+      "dates": "Past",
+      "description": "Corrective, Adaptive & Perfective Web Portal Maintenance (ASP.Net, SQL Server) for trading portals like Phonetrade.cc, Worldtrade.cc, and CPUtrade.cc."
+    },
+    {
+      "id": "7",
+      "role": "Software Engineer",
+      "company": "ARY Speed Remit Worldwide F.Z. Co.",
+      "dates": "Past",
+      "description": "Web Portal Re-Engineering with KYC/AML Compliance. Developed Online Money Transfer System and Smart Recruitment Mobile App."
+    },
+    {
+      "id": "8",
+      "role": "Software Engineer",
+      "company": "WorkPlains Pvt. Ltd.",
+      "dates": "Past",
+      "description": "Developed Document Management System (Web Service and Portal Client) using ASP.Net, C#, SQL Server. Built virtual folder Windows Explorer Extension."
+    },
+    {
+      "id": "9",
+      "role": "Intern Programmer",
+      "company": "Elixir Technologies",
+      "dates": "Past",
+      "description": "Developed Design Pro Tools Manager Shell Integrated Application (C++, ATL Com) and Design Pro Tools Graphics Editor for Print Resource Management."
+    }
+  ]
+}
