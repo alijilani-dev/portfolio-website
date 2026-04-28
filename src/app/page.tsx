@@ -1,7 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { Terminal, MemoryStick, Verified, Mail, Bot, Plug, Code, Network, ArrowUpRight } from "lucide-react";
+import {
+  Terminal,
+  Cpu,          // Use Cpu as a safer alternative to MemoryStick if it fails
+  CheckCircle,  // Use CheckCircle as a safer alternative to Verified
+  Mail,
+  Bot,
+  Plug,
+  Code,
+  Network,
+  ExternalLink  // Use ExternalLink as a safer alternative to ArrowUpRight
+} from "lucide-react";
 
 export default function Home() {
   const [formData, setFormData] = useState({
