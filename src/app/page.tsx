@@ -2,8 +2,15 @@
 
 import { useState } from "react";
 import { 
-  Terminal, MemoryStick, Mail, Bot, Plug, Code, Network, ArrowUpRight,
-  BadgeCheck // <--- Add this
+  Terminal, 
+  MemoryStick, // Try changing to 'Cpu' if this still feels slow
+  BadgeCheck,  // Renamed from 'Verified'
+  Mail, 
+  Bot, 
+  Plug, 
+  Code, 
+  Network, 
+  ArrowUpRight 
 } from "lucide-react";
 
 export default function Home() {
