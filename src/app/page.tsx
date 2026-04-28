@@ -1,7 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { Terminal, Cpu, CheckCircle, Mail, Bot, Plug, Code, Network, ArrowUpRight } from "lucide-react";
+import { 
+  Terminal, MemoryStick, Mail, Bot, Plug, Code, Network, ArrowUpRight,
+  BadgeCheck // <--- Add this
+} from "lucide-react";
 
 export default function Home() {
   const [formData, setFormData] = useState({
