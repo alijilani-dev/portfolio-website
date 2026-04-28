@@ -31,60 +31,46 @@ export default function Home() {
     setFormData((prev) => ({ ...prev, [id]: value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitStatus("idle");
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+  setSubmitStatus("idle");
 
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-      if (response.ok) {
-        setSubmitStatus("success");
-        setFormData({
-          firstName: "",
-          lastName: "",
-          organisation: "",
-          businessEmail: "",
-          phone: "",
-          country: "",
-          message: "",
-        });
-        return;
-      }
-    } catch (error) {
-      console.error("API call failed:", error);
-    }
-
-    // Fallback: open user's email client with pre-filled data
-    const subject = `New Contact Form Submission from ${formData.firstName} ${formData.lastName}`;
-    const body = `First Name: ${formData.firstName}%0D%0A` +
-      `Last Name: ${formData.lastName}%0D%0A` +
-      `Organisation: ${formData.organisation || 'Not provided'}%0D%0A` +
-      `Business Email: ${formData.businessEmail}%0D%0A` +
-      `Phone: ${formData.phone || 'Not provided'}%0D%0A` +
-      `Country: ${formData.country || 'Not provided'}%0D%0A` +
-      `%0D%0AMessage:%0D%0A${encodeURIComponent(formData.message)}`;
-    
-    window.open(`mailto:aajilani.job@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`, '_blank');
-    setSubmitStatus("success");
-    setFormData({
-      firstName: "",
-      lastName: "",
-      organisation: "",
-      businessEmail: "",
-      phone: "",
-      country: "",
-      message: "",
+  try {
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
     });
-    setIsSubmitting(false);
-  };
+
+    if (response.ok) {
+      setSubmitStatus("success");
+      setFormData({
+        firstName: "", lastName: "", organisation: "",
+        businessEmail: "", phone: "", country: "", message: "",
+      });
+      setIsSubmitting(false); // Fix: Stop loading on success
+      return; // Exit early
+    }
+  } catch (error) {
+    console.error("API call failed:", error);
+  }
+
+  // --- Fallback Logic: Only runs if API fails or response is not ok ---
+  const subject = `Portfolio - New Contact Form Submission from ${formData.firstName} ${formData.lastName}`;
+  const body = `First Name: ${formData.firstName}%0D%0A` +
+    `Last Name: ${formData.lastName}%0D%0A` +
+    `Message:%0D%0A${encodeURIComponent(formData.message)}`;
+  
+  window.open(`mailto:aajilani.job@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`, '_blank');
+  
+  setSubmitStatus("success");
+  setFormData({
+    firstName: "", lastName: "", organisation: "",
+    businessEmail: "", phone: "", country: "", message: "",
+  });
+  setIsSubmitting(false); // Fix: Stop loading on fallback
+};
 
   return (
     <div className="relative flex h-auto w-full flex-col bg-background dark group/design-root z-50">
