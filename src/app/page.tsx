@@ -3,8 +3,9 @@
 import { useState } from "react";
 import { 
   Terminal, 
-  MemoryStick, // Try changing to 'Cpu' if this still feels slow
-  BadgeCheck,  // Renamed from 'Verified'
+  Cpu,           // <--- Add this line
+  MemoryStick, 
+  BadgeCheck,  
   Mail, 
   Bot, 
   Plug, 
