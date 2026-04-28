@@ -281,7 +281,7 @@ export default function Home() {
         <section className="flex flex-col gap-8" id="certifications">
           <div className="flex flex-col gap-2 mb-4">
             <h2 className="text-4xl md:text-5xl font-semibold text-on-surface flex items-center gap-3 tracking-tight leading-[1.2]">
-              <Verified className="text-primary-container w-10 h-10" />
+              <BadgeCheck className="text-primary-container w-10 h-10" />
               Licenses & Certifications
             </h2>
             <p className="text-lg text-secondary leading-relaxed">Professional credentials and global technology certifications.</p>
